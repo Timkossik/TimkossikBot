@@ -1,0 +1,2 @@
+aiogram==3.3.0
+aiosqlite==3.0.0
