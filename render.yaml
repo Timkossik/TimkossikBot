@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: your-service-name
+    name: TimkossikBot
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python your_main_file.py
+    startCommand: main.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.9
