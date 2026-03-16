@@ -3,7 +3,7 @@ services:
     name: TimkossikBot
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: main.py
+    startCommand: python main.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.9
