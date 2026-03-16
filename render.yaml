@@ -1,8 +1,9 @@
 services:
-  - type: worker
-    name: hayday-bot
+  - type: web
+    name: your-service-name
     runtime: python
-    region: frankfurt
     buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    autoDeploy: true
+    startCommand: python your_main_file.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.9
